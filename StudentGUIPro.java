@@ -594,7 +594,7 @@ public class StudentGUIPro extends JFrame {
 
     private void setDarkMode(boolean on) {
         Color bg = on ? new Color(45, 45, 48) : Color.WHITE;
-        Color fg = on ? Color.WHITE : Color.BLACK;
+        Color fg = on ? Color.RED : Color.BLACK;
         Color tableBg = on ? new Color(30, 30, 30) : Color.WHITE;
         Color tableFg = on ? Color.WHITE : Color.BLACK;
         Color headerBg = on ? new Color(60, 60, 60) : UIManager.getColor("TableHeader.background");
